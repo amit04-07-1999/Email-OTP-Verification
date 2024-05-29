@@ -63,7 +63,7 @@ app.post("/sendOTP", async (req, res) => {
       html: `<h2>Your OTP is </h2>${otp_val}`, // html body
     });
 
-    // console.log("Message sent: %s", info.messageId);
+    console.log("Message sent: %s", info.messageId);
   }
 
   try {
